@@ -4,7 +4,6 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from "firebase/storage";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAv8cCmTj0xFgBLFkDKIEHmIBOEXGlui_Y",
     authDomain: "royal-shop-5959a.firebaseapp.com",
@@ -15,7 +14,6 @@ const firebaseConfig = {
     measurementId: "G-XS28S20PV6",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app)
 const db = getFirestore(app);
